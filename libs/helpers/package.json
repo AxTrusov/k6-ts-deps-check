@@ -1,0 +1,19 @@
+{
+  "name": "k6-ts-deps-check-helpers",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "5.3.3"
+  }
+}
